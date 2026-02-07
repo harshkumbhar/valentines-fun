@@ -60,7 +60,7 @@ const ValentineCard: React.FC<ValentineCardProps> = ({ onAccept, status }) => {
         <>
           <div className="mb-6">
             <img 
-              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHIybHllbnYxdmpxZ2RyeGZ1YWFtZzRqcnBqYjN3MGJ5dmxhdG9rMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Wf9A6ZMTTAt0s/giphy.gif" 
+              src="../assets/image.jpeg" 
               alt="Cute cat" 
               className="mx-auto w-48 h-48 object-contain rounded-full border-4 border-rose-200 p-2 bg-white"
             />
@@ -90,13 +90,13 @@ const ValentineCard: React.FC<ValentineCardProps> = ({ onAccept, status }) => {
         <div className="animate-in fade-in zoom-in duration-500">
           <div className="mb-6">
             <img 
-              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N2cGlrZzhwZ2VzZWh2NjRreXV2em40Z3p0M2NpeHRtYXNhdG52OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MDJ9IbZYvC0hOFG6XN/giphy.gif" 
+              src="../assets/happy-cat.gif"
               alt="Happy cat" 
               className="mx-auto w-48 h-48 object-contain rounded-full border-4 border-rose-200 p-2 bg-white"
             />
           </div>
           <h1 className="text-5xl md:text-6xl font-cursive text-rose-600 mb-4">
-            Yay! 🌹
+            Yay! 🌻
           </h1>
           <p className="text-rose-400 text-xl font-medium mb-2">I knew you'd say yes!</p>
           <div className="text-3xl mt-6 animate-bounce">
