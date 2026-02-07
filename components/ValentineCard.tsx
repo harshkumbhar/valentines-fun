@@ -60,7 +60,7 @@ const ValentineCard: React.FC<ValentineCardProps> = ({ onAccept, status }) => {
         <>
           <div className="mb-6">
             <img 
-              src="../assets/image.jpeg" 
+              src="/image.jpeg" 
               alt="Cute cat" 
               className="mx-auto w-48 h-48 object-contain rounded-full border-4 border-rose-200 p-2 bg-white"
             />
@@ -90,7 +90,7 @@ const ValentineCard: React.FC<ValentineCardProps> = ({ onAccept, status }) => {
         <div className="animate-in fade-in zoom-in duration-500">
           <div className="mb-6">
             <img 
-              src="../assets/happy-cat.gif"
+              src="/happy-cat.gif"
               alt="Happy cat" 
               className="mx-auto w-48 h-48 object-contain rounded-full border-4 border-rose-200 p-2 bg-white"
             />
